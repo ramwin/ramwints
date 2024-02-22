@@ -1,6 +1,6 @@
 {
   "name": "ramwints",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "a example project to test typescript",
   "main": "src/index.ts",
   "type": "module",
