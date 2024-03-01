@@ -27,4 +27,9 @@ export const mutate = <K extends string, O extends {[KK in K]: unknown}>(a: O, b
 
 mutate(alice, bob, ["name"])
 
+const keys = ["name"]
+keys.forEach(<K extends keyof Student>(c: K) => {
+  alice[c] = bob[c]
+});
+
 console.log(alice);
