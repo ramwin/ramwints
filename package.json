@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "lint": "npx eslint ./src"
   },
   "keywords": [
     "typescript",
@@ -16,6 +17,8 @@
   "author": "Xiang Wang",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^5.3.3"
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.2",
+    "typescript-eslint": "^7.2.0"
   }
 }
